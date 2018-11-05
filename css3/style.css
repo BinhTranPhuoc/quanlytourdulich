@@ -1,0 +1,53 @@
+body{
+	width:100%;
+	font-family: Arial, sans-serif;
+	margin:0;
+}
+
+.col-md-4 {
+	height: 370px;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	background: white;
+    box-shadow: 1px 1px 1px #d5d5d5;
+	margin: 2px;
+	padding: 5px;
+}
+
+.img-main img {
+	width: 100%;
+	height: 50%;
+}
+
+.title a {
+	background-color: #ed1a37;
+    padding: 5px 5px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.title b {
+	font-size: 20px;
+}
+
+.description {
+	margin-top: 3%;
+}
+
+.description label {
+	font-size: 14px;
+	color: #585858;
+}
+
+.counting {
+	margin-top: 5%;
+}
+
+.counting label {
+	font-size: 12px;
+	color: #999999;
+}

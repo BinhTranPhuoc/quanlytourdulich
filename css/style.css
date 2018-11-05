@@ -1,0 +1,364 @@
+﻿/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #e3e3e3;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #fff;
+  }
+  .carousel-indicators li {
+    border-color: #fff;
+  }
+  .carousel-indicators li.active {
+    background-color: #fff;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .item_blue {
+    height: 400px;
+
+  }
+  hr {
+  background-color: #428500 !important;
+    color: #428500 !important;
+    border: solid 0px #428500 !important;
+    height: 1px !important;
+  }
+
+  .panel {
+    border: 1px solid #428500;
+    border-radius: 0;
+    transition: box-shadow 0.5s;
+    margin-top: 30px;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2)
+  }
+
+  div.polaroid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+body{
+    font-family:Roboto;
+}
+.search-text{
+
+  margin-top:50px;
+  background-color: #216910;
+  padding-top:60px;
+  padding-bottom:60px;
+}
+.form {
+  margin: auto;
+}
+  
+.search-text .input-search{
+  height:45px;
+  width:300px;
+  padding-left:20px;
+    color:#333;
+} 
+
+.search-text .btn-search{
+    background: #da3e44;
+    font-family:Roboto;
+    border:none;
+  color:#FFF;
+  height: 45px;
+    width: 150px;
+}
+
+.search-text h4{
+  
+    color: #FFF;
+    font-weight: 700;
+}
+
+footer{
+     background-color: #216910;
+     padding:30px 0px;
+}        
+
+.logo{
+    color:#FFF;
+    font-weight:800;
+    font-size:30px;
+}
+
+.adress span , .menu span{
+   color: #FFF; 
+   font-weight: 800; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding-bottom: 10px; 
+   margin-bottom: 20px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+ 
+.adress li a , .menu li a{
+    color:#FFF;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-size:12spx;
+}
+
+.adress li, .menu li{
+    margin-top: 5px;
+    list-style: none;
+}
+
+.adress li a:hover , .menu li a:hover{
+    color: #da3e44;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.fa{
+    color: #da3e44;
+    margin-right: 10px;
+    font-size:25px;
+}
+h3 {
+  color: red; 
+  font-weight: 600;
+  font-family: inherit;
+}
+
+  .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .page_title {
+      min-height: 450px;
+      margin-top: 60px;
+    }
+    .row.content {
+      width: 1100px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .form_dattour {
+      border: 1px solid #428500;
+      background: #f2f2f2;
+    }
+    .form_dattour .title {
+      background: #428500;
+      color: #fff;
+      font-size: 30px;
+      padding: 15px 20px;
+    }
+    
+    .form_dattour .content {
+      padding: 20px 20px 10px 20px;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+
+    .page-title {
+      min-height: 450px;
+      margin-top: 60px;
+    }
+    .page-title img {
+      width: 100%;
+      height: 400px;
+    }
+    .row.content {
+      width: 1100px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .form_dattour {
+      border: 1px solid #428500;
+      background: #f2f2f2;
+    }
+    .form_dattour .title {
+      background: #428500;
+      color: #fff;
+      font-size: 30px;
+      padding: 15px 20px;
+    }
+    
+    .form_dattour .content {
+      padding: 20px 20px 10px 20px;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .title-detail{
+      color: #0033FF;
+    }
+    h5 {
+      color: #FF9900;
+    }
+    .content {
+      text-align: justify;
+    }
+    .category-detail {
+      color: #3366FF;
+    }
+    .price-tour {
+      color: #CC0000;
+    }
+
+
+    /*title các tour và tour khuyến mãi*/
+    .sectionTitle {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .sectionTitle h2 {
+      position: relative;
+      margin-bottom: 16px;
+    }
+    .sectionTitle h2 span {
+      padding-left: 38px;
+      padding-right: 38px;
+      z-index: 5;
+      position: relative;
+      background-color: #ffffff;
+      white-space: nowrap;
+    }
+
+    .sectionTitle h2:before {
+      background-color: #e5e5e5;
+      content: "";
+      display: block;
+      height: 1px;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      left: 0;
+      z-index: 1;
+    }
+
+    .sectionTitle p {
+      color: #969696;
+      font-weight: 400;
+      text-transform: capitalize;
+      margin-bottom: 0;
+    }
+
+   /* giá*/
+    .price {
+      margin-top: 4px;
+    }
+    .price span {
+      posit1ion: relative;
+      top: -3px; 
+      text-decoration: line-through; 
+      text-1decoration: #444 double line-through; 
+      color: #444; 
+      font-weight: normal; 
+      fo1nt-size: 18px; 
+      padding: 2px 0px; 
+      margin-left: 5px;
+    }
+
+    .price-new {
+      margin-bottom: 0px;
+      color: #f24300;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    /* contact */
+    /*Contact sectiom*/
+    .content-header{
+      font-family: 'Oleo Script', cursive;
+      color:#fcc500;
+      font-size: 45px;
+    }
+
+    .section-content{
+      text-align: center; 
+
+    }
+    #contact{  
+      font-family: 'Teko', sans-serif;
+      padding-top: 60px;
+      width: 100%;
+      width: 100vw;
+      height: 550px;
+      background: #CCFFCC; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #CCFFCC , #66FF33); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #CCFFCC , #66FF33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color : #fff;    
+    }
+    .contact-section{
+      padding-top: 40px;
+    }
+    .contact-section .col-md-6{
+      width: 50%;
+    }
+    .form-line{
+      border-right: 1px solid #B29999;
+    }
+    label{
+      font-size: 1.3em;
+      line-height: 1em;
+      font-weight: normal;
+    }
+    .form-control{
+      font-size: 1.3em;
+      color: #080808;
+    }
+    textarea.form-control {
+      height: 135px;
+    }
+
+    .submit{
+      font-size: 1.1em;
+      float: right;
+      width: 150px;
+      background-color: transparent;
+      color: #fff;
+
+    }
+
+    .voting-stars i {
+    cursor: default;
+    display: inline-block;
+    text-align: center;
+    width: 1.25em;
+}
+.voting-stars.stars-small {
+    font-size: 11px;
+}
+.active-color {
+  color: #ee3124;
+}
